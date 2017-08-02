@@ -77,10 +77,11 @@ public class OrderProcessing {
                                                    break;
                                       }
                                   }while(k!=5);
+                                  break;
                          
                      }
         }
-                     }while(i!=3);
+                     }while(i!=3);break;
             case 2 : 
                      do{
                      System.out.println("1. Check orders 2. Add investors 3. Check investors 4. Exit");
@@ -103,6 +104,7 @@ public class OrderProcessing {
                                  break;
                              }
                          }
+                         break;
                          case 2 : System.out.println("Enter investor");
                                   investor_name = sc.nextLine();
                                   investors[investor_variable]=investor_name;
@@ -116,7 +118,7 @@ public class OrderProcessing {
                          break;
                                   
                      }
-                     }while(option!=4);
+                     }while(option!=4);break;
     }
         }while(n!=3);
 }
